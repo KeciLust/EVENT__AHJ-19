@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+.titleH2 {
+    font-size: 50px;
+    color: chartreuse;
+    text-align: center;
+}
+.field {
+    width: 400px;
+    height: 400px;
+    background-color: burlywood;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell {
+    width: 96px;
+    height: 96px;
+    border: coral 2px solid;
+}
+.goblin {
+    background-image: url(../img/goblin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90px;
+}
